@@ -1,0 +1,40 @@
+var x : int;
+var y : int;
+var resultado : int;
+var xx : float;
+var yy : float;
+var resultadof : float
+fun ff(z : int, zz : int) : int
+var w : int
+begin
+   z <- zz + 1;
+   return z
+end;
+fun gg(h : float, hh : float) : float
+var ii : float
+begin
+   ii <- h + hh;
+   return ii
+end
+begin
+   read x;
+   read y;
+   resultado <- ff(x, y);
+   print y;
+   print x;
+   print resultado;
+   ifelse (resultado > 50)
+   begin
+      read xx;
+      read yy;
+      resultadof <- gg(xx, yy);
+   end
+   begin
+      xx <- 100.34;
+      yy <- 23.23;
+      resultadof <- gg(xx, yy);
+   end
+   print xx;
+   print yy;
+   print resultadof
+end

@@ -1,0 +1,23 @@
+var x : int;
+var y : int;
+var resultado : int
+fun ff(z : int, zz : int) : int
+var w : int
+begin
+   z <- zz + 1;
+   return z
+end;
+fun gg(h : float, hh : float) : float
+var ii : float
+begin
+   ii <- h + hh;
+   return ii
+end
+begin
+   read x;
+   read y;
+   resultado <- ff(x, y);
+   print y;
+   print x;
+   print resultado
+end

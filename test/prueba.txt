@@ -1,0 +1,35 @@
+var a : int;
+var b : int;
+var res : int;
+var x : float;
+var y : float
+begin
+	read a;
+	b <- 10;
+	if (a < b) 
+		begin 
+			while (a < b) 
+				begin
+					a <- a + 1;
+					print a
+				end
+			;
+			print ~a + ((b * 2) - 1) 
+		end
+	;
+		
+	read x;
+	read y;
+	ifelse (x = y) 
+		begin
+			print x
+		end
+		begin
+			x <- (x-2.0) * 5.0;
+			print ~x + (0.0)
+		end
+	;
+		
+	res <- a + b;
+	print res
+end

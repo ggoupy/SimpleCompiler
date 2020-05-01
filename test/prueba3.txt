@@ -1,0 +1,7 @@
+var x : int;
+var y : int
+begin
+	x <- 5 * 4;
+	y <- x / 2;
+	if (y / 2 = 4) print y
+end

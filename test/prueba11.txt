@@ -1,0 +1,27 @@
+var x : int;
+var y : int
+fun ff(z : int, zz : int) : int
+var w : int
+begin
+   z <- zz + 1;
+   return z
+end
+begin
+   read x;
+   read y;
+   ifelse (x < y)
+   begin
+      x <- x + 1;
+      y <- x + 2*x
+   end
+   begin
+      x <- x * 2;
+      y <- (2+1) * (y + x)
+   end;
+   print y;
+   print x;
+   read x;
+   read y;
+   x <- ff(x,y) + 1;
+   print x
+end

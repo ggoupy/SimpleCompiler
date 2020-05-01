@@ -1,0 +1,24 @@
+var x: int;
+var y: int
+
+fun sum(a: int, b: int): int
+var result: int
+begin
+	result <- a + b;
+	return result
+end;
+
+fun mock(): float
+begin
+end
+
+begin
+	x <- 1;
+	y <- 2;
+	print x;
+	print y;
+	x <- sum(sum(7, sum(2, 1)), 5);
+	print mock() + 1.0;
+	print x;
+	return 0
+end

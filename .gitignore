@@ -1,0 +1,11 @@
+# Ignore generated files
+bin/
+bin/*
+*.yy.c
+*parser.c
+*parser.h
+*.tab.c
+*.tab.h
+
+# Ignore macOS files
+*.DS_Store

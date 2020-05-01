@@ -1,0 +1,25 @@
+var a : int;
+var b : int;
+var resInt : int;
+var y : float;
+var x : float;
+var resFloat : float;
+var resFloat2 : float
+begin
+	read a;
+	print a;
+	b <- 12;
+	print b;
+	resInt <- a + b;
+	print resInt;
+	
+	read y;
+	print y;
+	x <- 55.2;
+	print x;
+	resFloat <- x + y;
+	print resFloat;
+	
+	resFloat2 <- 1.0 + 2.5;
+	print resFloat2
+end
