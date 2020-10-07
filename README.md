@@ -1,5 +1,5 @@
 # Parser
-This is the parser for the final project (with the language defined in `Homework 7`) of the *Compilers Analysis and Design* course for Tecnologico de Monterrey, Puebla. It is implemented using [Lex](https://github.com/westes/flex) to generate a token stream from the input file, which is then parsed using [Bison](https://www.gnu.org/software/bison/).
+This is the parser for the final project (with the language defined in `Homework 7`) of the *Análisis y diseño de compiladores* course for Tecnológico de Monterrey, Puebla, Mx. It is implemented using [Lex](https://github.com/westes/flex) to generate a token stream from the input file, which is then parsed using [Bison](https://www.gnu.org/software/bison/).
 
 
 ## Usage
